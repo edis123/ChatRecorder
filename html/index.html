@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Project </title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	    <link  rel="stylesheet" type="text/css" href="./index.css"/>
+		<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Gloria+Hallelujah&family=Roboto:wght@300&family=Silkscreen&family=Unbounded&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+		<div id="all" style="display:flex; justify-content: center; ">
+	
+			<form action="download_messages" method="get">
+				<div>
+					<legend id="header">Download Messages Here</legend>
+				</div>
+				<div id="row" class="row" style="display:flex; justify-content: center;">
+	
+					<div id="tap1" class="col-lg-4  col-sm-12">
+						<div id="label1"> <label for="channelID">Channel ID:</label></div>
+						<input id="channelID" name="channelID" type="text" />
+					</div>
+	
+					<div id="tap2" class="col-lg-4  col-sm-12">
+						<div id="label2"><label for="nr"> How Many:</label></div>
+						<input id="nr" name="nr" type="text" />
+					</div>
+	
+					<div id="tap3" class="col-lg-4 col  col-sm-12">
+						<div id="label3"><label for="fileName"> Table:</label> </div>
+						<input id="fileName" name="fileName" type="text" />
+					</div>
+				</div>
+				<input id="input" type="submit" value="Download" />
+			</form>
+		</div>
+	</body>
+</html>

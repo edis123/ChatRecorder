@@ -1,0 +1,50 @@
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  border: 4px solid black;
+  text-align: center;
+  justify-content: center;
+ min-height: 98vh;
+ /* background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(249, 249, 249), rgb(248, 248, 245),rgb(145, 221, 156), rgb(10, 166, 23), rgb(2, 81, 14)); */
+ background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(249, 249, 249), rgb(252, 252, 252),rgb(249, 152, 246), rgb(255, 7, 7), rgb(117, 2, 2));
+}
+ form{
+     position:relative;
+
+    justify-content: center;
+    text-align: center;
+ }
+ 
+
+#label1{
+    background-color: rgb(232, 215, 65);
+    border-radius:7px;
+    font-size:x-large;
+    border: 2px solid white;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#label2{
+    background-color: rgb(62, 155, 237);
+    border-radius:7px;
+    font-size:x-large;
+    border: 2px solid white;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#label3{
+    background-color: rgb(233, 11, 11);
+    border-radius:7px;
+    font-size:x-large;
+    border: 2px solid white;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+ input {
+ margin-top: 50px;
+  font-size: x-large;
+  border-radius: 20px;
+  padding :10px 50px 10px 50px;
+  background-color: rgb(14, 218, 14);
+  border: 4px solid white;
+  font-family: 'Gloria Hallelujah', cursive;
+}
